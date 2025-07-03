@@ -1,0 +1,2 @@
+Benchmark                                       Mode  Cnt        Score       Error  Units
+EtcdPerformanceApplicationWTests.write5000Keys  avgt  155  5227864.775 ± 93707.386  ns/op
