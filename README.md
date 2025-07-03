@@ -193,5 +193,3 @@ Iteration  45: 5068379.919 ns/op
 1. 預設etcd node 存儲是2G大小, 需要確認能擴大多少?!
 2. 單key最多放1.5 mb 的value
 3. 使用scan做多key查詢很慢, 需要避免業務上如此使用, 上千節點時, `etcdkeeper` 無法使用 (會timeout)
-
-# etcd-performance-testing
