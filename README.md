@@ -8,7 +8,7 @@
 
 [EtcdPerformanceApplicationWatchTest.java](src/test/java/com/alliance/slots/etcdperformace/EtcdPerformanceApplicationWatchTest.java)
 
-已經有30000比的key在etcd內, 如果持續更新, 效能如何, 每一秒採樣做均值
+已經有30000筆key的節點, 做高頻key的update, 效能如何?  以下資料是每一秒採樣 (etcd put), 然後做均值
 
 結果:
 
